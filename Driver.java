@@ -47,6 +47,9 @@ public class Driver{
     System.out.println(e.subtract(d)); // -1/4
     System.out.println(h.subtract(e)); // -1/1
 
+    System.out.println(h.add(a)); // 14.25
+    System.out.println(d.divide(b)); // Infinity
+ 
   }
 
 }

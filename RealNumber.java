@@ -5,26 +5,27 @@ public class RealNumber {
     num = x;
   }
 
-  public double getRealNum() {
+  public double add(RealNumber val){
+    return 0;
+  }
+
+  public double subtract(RealNumber val){
+    return 0;
+  }
+
+  public double multiply(RealNumber val){
+    return 0;
+  }
+
+  public double divide(RealNumber val){
+    return 0;
+  }
+
+  public double getValue() {
     return num;
   }
 
   public String toString() {
-    return "num";
+    return "" + num;
   }
-
-  public void setRealNum(double val){
-    num = val;
-  }
-
-  public void addTo(double val){}
-
-  public void subtract(double val){}
-
-  public void multiplyBy(double val){}
-
-  public void divideBy(double val){}
-
-  public void powerTo(double val){}
-
 }

@@ -6,19 +6,19 @@ public class RealNumber {
   }
 
   public double add(RealNumber val){
-    return 0;
+    return this.getValue() + val.getValue();
   }
 
   public double subtract(RealNumber val){
-    return 0;
+    return this.getValue() - val.getValue();
   }
 
   public double multiply(RealNumber val){
-    return 0;
+    return this.getValue() * val.getValue();
   }
 
   public double divide(RealNumber val){
-    return 0;
+    return this.getValue() / val.getValue();
   }
 
   public double getValue() {

@@ -15,7 +15,7 @@ public class RationalNumber extends RealNumber {
   }
 
   public double getValue(){
-    return this.getNumerator() / (this.getDenominator() * 1.0);
+    return this.getNumerator() / ((double)this.getDenominator());
   }
 
   public int getNumerator() {
@@ -35,6 +35,7 @@ public class RationalNumber extends RealNumber {
   }
 
   public String toString(){
+    if (this.denom == 1){return this.numer + "";}
     return this.getNumerator() + "/" + this.getDenominator();
   }
 
